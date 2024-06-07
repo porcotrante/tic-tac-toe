@@ -13,9 +13,10 @@ h1{
 }
 
 .gameGrid{
-    width: 25%;
+    width: 40vh;
+    height: 40vh;
     padding: 1rem;
-    margin: 150px auto;
+    margin: 15vh auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -23,5 +24,12 @@ h1{
 
 .gameGrid>*{
     border: 1px solid black;
-    padding: 5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 80%;
 }
